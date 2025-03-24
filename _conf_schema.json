@@ -1,0 +1,7 @@
+{
+    "iskeyinterceptor": {
+        "description": "是否开启屏蔽",
+        "type": "bool",
+        "default": true
+    }
+}
