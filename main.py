@@ -6,7 +6,7 @@ from astrbot.api import logger
 from astrbot.api.provider import LLMResponse
 from openai.types.chat.chat_completion import ChatCompletion
 
-@register("keyinterceptor", "Futureppo", "屏蔽获取不到model列表导致key泄露", "1.0.0")
+@register("astrbot_plugin_keyinterceptor", "Futureppo", "屏蔽获取不到model列表导致key泄露", "1.0.0")
 class keyinterceptor(Star):
     def __init__(self, context: Context, config: dict):
         super().__init__(context)
